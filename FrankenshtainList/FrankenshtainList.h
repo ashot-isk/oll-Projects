@@ -92,32 +92,8 @@ public:
 		return iterator(this->tail);
 	}
 
-	void revers()
-	{
-		 if (head == nullptr || !head->next)
-		{
-			return ;
-		}
-		// revers(head->next);
-		// head->next->next = head;
-		// head->next = nullptr;
-		//{
-			// Initialize current, previous and
-			// next pointers
-			// node *current = head;
-			// node *preve = nullptr, *nexte = nullptr;
 
-			// while (current != nullptr)
-			// {
-			// 	nexte = current->next;
-			// 	current->next = preve;
-			// 	preve = current;
-			// 	current = nexte;
-			// }
-			// head = preve;
-	
-	}
-	void remove(T key); //ches arel
+	void remove(T key); 
 	void erase(int pos);
 	void erase(const iterator &it);
 	void erase();
